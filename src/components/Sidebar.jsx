@@ -14,7 +14,7 @@ const Sidebar = () => {
 
     const dispatch = useDispatch();
     const { data, isFetching } = useGetGenresQuery();
-    const [navBar, setNavBar] = useState(true);
+    const [navBar, setNavBar] = useState(false);
     const [buttonPos, setButtonPos] = useState(true);
 
     const categories = [
